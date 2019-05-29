@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{3:function(e,n,t){e.exports=t(9)},9:function(e,n,t){"use strict";t.r(n);var o=t(0),a=t.n(o),l=t(2),r=function(){return a.a.createElement("div",null,a.a.createElement("h1",null,"React Todo Cookies"),a.a.createElement("p",null,'This is a basic todo app that will be saved in your browser\'s "Cookies" (Actually localStorage)'))};t.n(l).a.render(a.a.createElement(r,null),document.getElementById("root"))}},[[3,1,2]]]);
-//# sourceMappingURL=main.b1efa08a.chunk.js.map
