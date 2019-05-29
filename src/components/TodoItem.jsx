@@ -7,6 +7,7 @@ const TodoItem = props => {
         if (props.data !== todo) {
             props.handleTodoChange(todo);
         }
+    // eslint-disable-next-line
     }, [todo]);
 
     const handleChange = e => {
