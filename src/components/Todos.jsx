@@ -50,7 +50,24 @@ const Todos = () => {
 
     return (
         <div>
-            <p>List of Todos:</p>
+            <h2>List of Todos:</h2>
+            <button
+                type="button"
+                style={{ marginBottom: "15px" }}
+                onClick={() => {
+                    if (
+                        window.confirm(
+                            "Are you sure you want to clear your todo list?"
+                        )
+                    ) {
+                        localStorage.removeItem("todos");
+                        window.location.href = "/";
+                    }
+                }}
+            >
+                Clear all todos
+            </button>
+
             {todos ? (
                 <div>
                     {todos.map(todo => (
