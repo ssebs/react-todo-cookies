@@ -2,6 +2,7 @@
   "name": "react-todo-cookies",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ssebs.github.io/react-todo-cookies",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
