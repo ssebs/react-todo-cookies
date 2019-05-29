@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "829f6bbab590986073c08d0636f5a35a",
+    "revision": "7ff2921a6d650883d512ae68b9015f54",
     "url": "/react-todo-cookies/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-todo-cookies/static/js/2.0332ce4f.chunk.js"
   },
   {
-    "revision": "c026ad66f3628e41e73b",
-    "url": "/react-todo-cookies/static/js/main.92151f4e.chunk.js"
+    "revision": "bc7915c35fb307ee05e5",
+    "url": "/react-todo-cookies/static/js/main.8a4625d7.chunk.js"
   },
   {
     "revision": "4c3f7551c35c74971c50",
