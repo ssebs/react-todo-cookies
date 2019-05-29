@@ -48,6 +48,13 @@ const Todos = () => {
         ]);
     };
 
+    const handleDeleteTodo = id => {
+        const tmp = todos.filter(todo => todo.id !== id);
+        console.log(tmp);
+        setTodos(tmp);
+        localStorage.setItem("todos", JSON.stringify(tmp));
+    };
+
     return (
         <div>
             <h2>List of Todos:</h2>
@@ -80,6 +87,7 @@ const Todos = () => {
                                 handleTodoChange={todo =>
                                     handleTodoChange(todo)
                                 }
+                                handleDeleteTodo={id => handleDeleteTodo(id)}
                             />
                         </div>
                     ))}

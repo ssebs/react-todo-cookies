@@ -19,7 +19,8 @@ const TodoItem = props => {
     };
 
     const handleDelete = () => {
-        console.log(`Deleting ${todo.text}`);
+        // console.log(`Deleting ${todo.text}`);
+        props.handleDeleteTodo(todo.id)
     };
 
     return (
