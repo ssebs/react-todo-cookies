@@ -4,8 +4,7 @@ import {
     Button,
     Form,
     FormControl,
-    FormCheck,
-    TextArea
+    FormCheck
 } from "react-bootstrap";
 
 const TodoItem = props => {
@@ -25,11 +24,6 @@ const TodoItem = props => {
             const value = e.target.value;
             setTodo({ ...todo, [e.target.name]: value });
         }
-    };
-
-    const handleDelete = () => {
-        // console.log(`Deleting ${todo.text}`);
-        props.handleDeleteTodo(todo.id);
     };
 
     return (
@@ -64,7 +58,7 @@ const TodoItem = props => {
                 size="sm"
                 type="button"
                 name="delete"
-                onClick={handleDelete}
+                onClick={() => props.handleDeleteTodo(todo.id)}
             >
                 X
             </Button>

@@ -33,7 +33,7 @@ const Todos = () => {
             }
             return todo;
         });
-        console.log(tmp);
+        // console.log(tmp);
         setTodos(tmp);
         localStorage.setItem("todos", JSON.stringify(tmp));
     };
@@ -52,7 +52,7 @@ const Todos = () => {
 
     const handleDeleteTodo = id => {
         const tmp = todos.filter(todo => todo.id !== id);
-        console.log(tmp);
+        // console.log(tmp);
         setTodos(tmp);
         localStorage.setItem("todos", JSON.stringify(tmp));
     };

@@ -6,7 +6,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 const Header = () => (
     <Navbar expand="sm" variant="light" bg="primary" sticky="top">
         <Container>
-            <Navbar.Brand href="/">Todo Cookies</Navbar.Brand>
+            <Navbar.Brand href="#">Todo Cookies</Navbar.Brand>
             <Nav>
                 <Nav.Link href="https://github.com/ssebs/react-todo-cookies">
                     Source
@@ -21,9 +21,7 @@ const Header = () => (
 
 const Footer = () => (
     <footer
-        className="text-center text-primary bg-light p-4 mt-5"
-        // style={{ bottom: "0", position: "absolute", width: "100%" }}
-    >
+        className="text-center text-primary bg-light p-4 mt-5">
         &copy; 2019 Sebastian Safari
     </footer>
 );
