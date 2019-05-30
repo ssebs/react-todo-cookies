@@ -5,7 +5,7 @@ This is a basic todo app that saves your todos in localStorage ("cookie"), so yo
 [Live Demo](https://ssebs.github.io/react-todo-cookies/)
 
 ## TODO:
-- [ ] Styling
+- [x] Styling
 - [ ] Handle \<Enter\>
 - [ ] Add Nesting
 - [ ] Add ability to move up/down
