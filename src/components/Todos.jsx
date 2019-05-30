@@ -72,7 +72,7 @@ const Todos = () => {
                             )
                         ) {
                             localStorage.removeItem("todos");
-                            window.location.href = "/";
+                            window.location.href = "#";
                         }
                     }}
                 >

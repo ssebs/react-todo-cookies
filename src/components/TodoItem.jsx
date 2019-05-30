@@ -45,7 +45,7 @@ const TodoItem = props => {
 
             <FormControl
                 type="text"
-                as="textarea"
+                // as="textarea"
                 name="text"
                 style={{ width: "256px" }}
                 onChange={handleChange}
