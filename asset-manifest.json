@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-todo-cookies/static/css/main.bdf31a6d.chunk.css",
-    "main.js": "/react-todo-cookies/static/js/main.2d8d9c23.chunk.js",
-    "main.js.map": "/react-todo-cookies/static/js/main.2d8d9c23.chunk.js.map",
+    "main.js": "/react-todo-cookies/static/js/main.d8e7cd93.chunk.js",
+    "main.js.map": "/react-todo-cookies/static/js/main.d8e7cd93.chunk.js.map",
     "runtime~main.js": "/react-todo-cookies/static/js/runtime~main.4b746fd5.js",
     "runtime~main.js.map": "/react-todo-cookies/static/js/runtime~main.4b746fd5.js.map",
     "static/js/2.41b2e997.chunk.js": "/react-todo-cookies/static/js/2.41b2e997.chunk.js",
     "static/js/2.41b2e997.chunk.js.map": "/react-todo-cookies/static/js/2.41b2e997.chunk.js.map",
     "index.html": "/react-todo-cookies/index.html",
-    "precache-manifest.514763856164151675d0d831e667d2c4.js": "/react-todo-cookies/precache-manifest.514763856164151675d0d831e667d2c4.js",
+    "precache-manifest.125f5cc4b9f09a4172940192a142e92a.js": "/react-todo-cookies/precache-manifest.125f5cc4b9f09a4172940192a142e92a.js",
     "service-worker.js": "/react-todo-cookies/service-worker.js",
     "static/css/main.bdf31a6d.chunk.css.map": "/react-todo-cookies/static/css/main.bdf31a6d.chunk.css.map"
   }
