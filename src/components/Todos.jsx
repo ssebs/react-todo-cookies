@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import TodoItem from "./TodoItem";
 
+import { Button } from "react-bootstrap";
+
 const Todos = () => {
     const [todos, setTodos] = useState();
 
@@ -57,41 +59,41 @@ const Todos = () => {
 
     return (
         <div>
-            <h2>List of Todos:</h2>
-            <button
-                type="button"
-                style={{ marginBottom: "15px" }}
-                onClick={() => {
-                    if (
-                        window.confirm(
-                            "Are you sure you want to clear your todo list?"
-                        )
-                    ) {
-                        localStorage.removeItem("todos");
-                        window.location.href = "/";
-                    }
-                }}
-            >
-                Clear all todos
-            </button>
-
+            <div className="text-center">
+                <h2>List of Todos:</h2>
+                <Button
+                    type="button"
+                    size="sm"
+                    variant="outline-danger"
+                    onClick={() => {
+                        if (
+                            window.confirm(
+                                "Are you sure you want to clear your todo list?"
+                            )
+                        ) {
+                            localStorage.removeItem("todos");
+                            window.location.href = "/";
+                        }
+                    }}
+                >
+                    Clear all todos
+                </Button>
+            </div>
             {todos ? (
-                <div>
+                <div className="justify-content-center text-center">
+                {/* <div> */}
                     {todos.map(todo => (
-                        <div
-                            style={{ marginBottom: "5px", display: "block" }}
+                        <TodoItem
                             key={todo.id}
-                        >
-                            <TodoItem
-                                data={todo}
-                                handleTodoChange={todo =>
-                                    handleTodoChange(todo)
-                                }
-                                handleDeleteTodo={id => handleDeleteTodo(id)}
-                            />
-                        </div>
+                            data={todo}
+                            handleTodoChange={todo => handleTodoChange(todo)}
+                            handleDeleteTodo={id => handleDeleteTodo(id)}
+                        />
                     ))}
-                    <button onClick={addTodoItem}>+ Add new item</button>
+                    <div className="clearfix"/>
+                    <Button className="mt-2" onClick={addTodoItem}>
+                        + Add new item
+                    </Button>
                 </div>
             ) : (
                 <p>Loading...</p>
